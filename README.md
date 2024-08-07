@@ -48,27 +48,39 @@ Salin teks tersebut
 
 ## 4. Buat repository Github
 ![new-repository](img/new-repository.png)
-Ikuti langkah dibawah ini
+Ikuti langkah dibawah ini:
+
+1.Pindahkan terminal ke folder yang ingin digunakan untuk repository Github
+```
+cd namaFolderRepository
+```
+
+2.Buat file README
 ```
 echo "# repositoryName" >> README.md
 ```
 
+3.Inisialisasi repository baru
 ```
 git init
 ```
 
+4.Tambahkan semua file yang ada di dalam folder repository
 ```
 git add .
 ```
 
+5.Simpan perubahan
 ```
 git commit -m "commit message"
 ```
 
+6.Ubah branch menjadi main
 ```
 git branch -M main
 ```
 
+7.Menambah remote repository
 ```
 git remote add origin git@github.com:usernameGithub/repositoryName.git
 ```
