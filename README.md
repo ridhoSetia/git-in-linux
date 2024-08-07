@@ -29,8 +29,11 @@ buka konten dari file `id_rsa.pub`
 ```
 cat id_rsa.pub
 ```
-![gambar isi dari file id_rsa.pub](/home/ridho/Pictures/rsa.png)
+![gambar isi dari file id_rsa.pub](img/rsa.png)
+salin teks tersebut
 ### 2. Buka pengaturan GitHub Anda dan arahkan ke bagian "Kunci SSH dan GPG".
 ### 3. Klik "Kunci SSH baru" dan tempelkan konten file id_rsa.pub Anda ke dalam bidang kunci.
-### Berikan judul deskriptif pada kunci Anda (misalnya, "New Private Key").
-### 4. Klik "Tambahkan kunci SSH".
+### 4. Berikan judul deskriptif pada kunci Anda (misalnya, "New Private Key").
+### 5. Klik "Tambahkan kunci SSH".
+
+## 4. 
