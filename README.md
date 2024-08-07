@@ -21,7 +21,7 @@ Ini akan menghasilkan dua berkas baru dan berada di dalam folder .ssh:
 - id_rsa.pub: Kunci publik Anda (Anda harus menyalinnya)
 
 ## 3. Tambahkan Public Key baru ke Github
-## 1. Buka konten file id_rsa.pub
+### 1. Buka konten file id_rsa.pub
 Pastikan ada folder `.ssh`
 ```
 ls -a
