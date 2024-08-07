@@ -36,4 +36,4 @@ salin teks tersebut
 ### 4. Berikan judul deskriptif pada kunci Anda (misalnya, "New Private Key").
 ### 5. Klik "Tambahkan kunci SSH".
 
-## 4. 
+## 4. Buat repository Github
