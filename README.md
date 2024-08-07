@@ -26,14 +26,19 @@ Pastikan ada folder `.ssh`
 ```
 ls -a
 ```
+
 Arahkan terminal ke folder `.ssh`
+
 ```
 cd .ssh
 ```
+
 Buka konten dari file `id_rsa.pub`
+
 ```
 cat id_rsa.pub
 ```
+
 ![gambar isi dari file id_rsa.pub](img/rsa.png)<br>
 Salin teks tersebut
 ###  2. Buka pengaturan GitHub Anda dan arahkan ke bagian "Kunci SSH dan GPG".
@@ -69,3 +74,16 @@ git remote add origin git@github.com:usernameGithub/repositoryName.git
 ```
 
 Selamat anda sudah berhasil membuat repository Github dengan menggunakan git remote 🥳.
+
+Lakukan ini jika ingin melakukan commit dan push:
+```
+git add .
+```
+
+```
+git commit -m "commit message"
+```
+
+```
+git push
+```
